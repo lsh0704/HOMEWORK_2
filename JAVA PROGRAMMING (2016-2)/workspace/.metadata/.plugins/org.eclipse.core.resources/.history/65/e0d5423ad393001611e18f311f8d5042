@@ -1,0 +1,11 @@
+
+public class pr {
+
+	public static void main(String[] args) {
+		int a;
+		a=(-5---2*8/(4-2)*3);
+		System.out.println(a);
+
+	}
+
+}

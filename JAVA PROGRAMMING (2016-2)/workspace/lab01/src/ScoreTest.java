@@ -1,0 +1,25 @@
+
+
+import java.util.Scanner;
+
+public class ScoreTest {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("ÀÌ¸§ ÀÔ·Â: ");
+		String name=scan.next();
+		
+		System.out.print("±¹¾î: ");
+		int kor = scan.nextInt();
+		
+		System.out.print("¿µ¾î: ");
+		int eng = scan.nextInt();
+		
+		System.out.print("¼öÇÐ: ");
+		int math = scan.nextInt();
+		
+		System.out.println(name+"´ÔÀÇ ÃÑÁ¡: "+(kor+eng+math));
+		
+		System.out.println(name+"´ÔÀÇ Æò±Õ: "+((kor+eng+math)/3));
+	}
+}

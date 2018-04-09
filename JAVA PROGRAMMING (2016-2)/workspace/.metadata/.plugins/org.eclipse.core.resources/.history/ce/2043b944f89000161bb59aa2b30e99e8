@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		Human man[] = new Human[3]; //휴먼 객체 배열 생성
+		Student stu[] = new Student[3]; //학생 객체 배열 생성
+		int i;
+		String name, major; int age, sID;
+		
+		for (i=1; i<=3; i++){ //사용자로부터 이름과 나이를 입력 받아서 3명의 Human 객체를 생성
+			System.out.print("["+i+"] Human 입력: ");
+			name = scan.next();
+			age = scan.nextInt();
+			man[i-1]=Human(name, age);
+		}		
+		for (i=1; i<=3; i++){ //사용자로부터 이름,나이,전공,학번을 입력 받아서 3명의 Student 객체 생성
+			System.out.print("["+i+"] Student 입력: ");
+			name = scan.next();
+			age = scan.nextInt();
+			major = scan.next();
+			sID = scan.nextInt();
+			
+			stu[i-1]=Student(name, age, major, sID);
+		}
+		
+		for (i=0; i<3; i++){ //각 객체참조변수 이름으로 출력문 작성
+			System.out.println("이름: "+man[i].getName()+", 나이: "+man[i].getAge());
+		}
+		for (i=0; i<3; i++){ //각 객체참조변수 이름으로 출력문 작성
+			System.out.println("[학생 정보]이름: "+stu[i].getName()+", 나이: "+stu[i].getAge()
+					+", 전공: "+stu[i].getMajor()+", 학번: "+stu[i].getsID));
+		}
+	}
+}

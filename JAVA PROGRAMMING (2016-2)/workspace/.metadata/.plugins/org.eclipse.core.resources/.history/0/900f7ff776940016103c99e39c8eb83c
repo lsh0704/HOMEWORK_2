@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+public class pr {
+
+	public static void main(String[] args) {
+		String[] myString = {"kim", "park", "200", "lee"};
+		Arrays.sort(myString);
+		for(String s : myString) {
+			System.out.print(s.toString());
+			System.out.print(" ");
+		}
+	}
+
+}

@@ -1,0 +1,38 @@
+package lab2_9;
+
+import java.util.Scanner;
+
+public class MultiplicationTable {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		int anum=3; int bnum=1;
+		int a=1;
+		int m; //count용으로 사용
+		
+		for (int b=1; b<=bnum*3; b++){
+			if (b==9){
+				anum*=3; 
+				System.out.println("");}//b가 9가 되면 한줄 내리고 다음 3단씩 준비함
+			
+			for (; a<=anum; a++){
+
+				if (b==1){
+					for(m=3; m!=0 ;m--){
+						System.out.print(a+"단          ");
+						--m;}
+					if (m==0){
+						m=3; //count 회복(n단 이름 적었으므로 다음 n단 적을때 사용)
+						System.out.println("");}
+				
+					System.out.print(a+"*"+b+"="+(a*b)+"   ");
+					if (a==anum) //3단 쓰고 한줄 내리기
+						System.out.println("");				
+				}
+			}
+				
+		}
+	}
+
+}

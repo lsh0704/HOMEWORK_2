@@ -1,0 +1,15 @@
+
+public class Student extends Human{
+	String major; //전공
+	int sID; //학번
+	
+	public Student(String name, int age, String major, int sID){ //생성자
+		super(name, age);
+		this.major=major;
+		this.sID=sID;
+	}
+}
+
+/*
+부모 클래스의 생성자 호출 (이름, 나이)
+*/

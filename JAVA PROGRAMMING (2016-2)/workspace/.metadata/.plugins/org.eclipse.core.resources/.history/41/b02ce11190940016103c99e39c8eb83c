@@ -1,0 +1,6 @@
+
+public class pr {
+
+	int int[] = new int[3];
+	int[]={1,2,3};
+}

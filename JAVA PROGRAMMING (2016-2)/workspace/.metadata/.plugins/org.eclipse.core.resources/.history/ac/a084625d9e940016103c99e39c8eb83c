@@ -1,0 +1,14 @@
+class box {
+	int name;
+}
+
+
+public class pr {
+	public static void main(String args[]){
+		box box = new box();
+		box.name=1;
+		
+		System.out.print(box.name);
+
+}
+}

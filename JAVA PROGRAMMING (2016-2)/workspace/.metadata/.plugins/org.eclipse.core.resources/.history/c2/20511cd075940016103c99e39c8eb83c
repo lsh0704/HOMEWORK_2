@@ -1,0 +1,10 @@
+
+public class pr {
+
+	public static void main(String[] args) {
+		String[] ss={"for", "while", "do-while"};
+		String first = (ss.length > 0) ? ss[3] : null ;
+		System.out.println(first);
+	}
+
+}

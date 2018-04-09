@@ -1,0 +1,40 @@
+
+public class Human {
+	
+	String name; //이름
+	int age; //나이
+	
+	public Human(String name, int age) { //생성자
+		name = null;
+		age = 0;
+		// 매개 변수의 값으로 필드를 초기화
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public String toString(){
+		// 객체의 현재 값들을 연결하여 문자열로 반환
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

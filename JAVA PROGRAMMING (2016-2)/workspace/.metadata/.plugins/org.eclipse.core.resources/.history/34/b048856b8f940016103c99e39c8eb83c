@@ -1,0 +1,35 @@
+class Car {
+	String color;
+	int door;
+	void drive(){
+		System.out.println("drive, brrrr~");
+	}
+	void stop(){
+		System.out.println("stop!!!");
+	}
+}
+
+class FireEngine extends Car {
+	void water() {
+		System.out.println("water!!!");
+	}
+	void drive() {
+		super.drive();
+		System.out.println("소방차는 급해요~!");
+	}
+}
+class Ambulance extends Car {
+	void siren() {
+		System.out.println("siren~~~~");
+	}
+}
+
+public class pr {
+
+	public static void main(String[] args) {
+		Car c = new FireEngine();
+		c.drive();
+		c=new Ambulance();
+		c.drive();
+	}
+}
