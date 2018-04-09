@@ -1,0 +1,38 @@
+﻿빌드 시작: 2015-11-25 오후 10:46:49
+     1>2 노드의 "C:\Users\소희\documents\visual studio 2015\Projects\lab11_1515655_임소희\lab11_1515655_임소희\lab11_1515655_임소희.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(12): error C2085: 'main': 정식 매개 변수 목록에 없습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(12): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(17): error C2065: 'argc': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(24): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(24): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(24): error C2198: 'strcmp': 호출에 매개 변수가 너무 적습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(26): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(26): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(26): error C2198: 'strcmp': 호출에 매개 변수가 너무 적습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(28): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(28): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(28): error C2198: 'strcmp': 호출에 매개 변수가 너무 적습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(33): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(33): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(36): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(36): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(36): error C2198: 'strtod': 호출에 매개 변수가 너무 적습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(37): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(37): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(37): error C2198: 'strtod': 호출에 매개 변수가 너무 적습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(40): error C2065: 'argc': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(41): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(41): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(41): warning C4047: '함수': 'char **'의 간접 참조 수준이 'int'과(와) 다릅니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(41): warning C4024: 'strtol': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(41): error C2198: 'strtol': 호출에 매개 변수가 너무 적습니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(46): error C2065: 'argv': 선언되지 않은 식별자입니다.
+     1>c:\users\소희\documents\visual studio 2015\projects\lab11_1515655_임소희\lab11_1515655_임소희\main.c(46): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+     1>"C:\Users\소희\documents\visual studio 2015\Projects\lab11_1515655_임소희\lab11_1515655_임소희\lab11_1515655_임소희.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.19
