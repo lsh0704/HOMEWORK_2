@@ -59,7 +59,7 @@ main()
 		{
 			state = OUT;
 
-			if (wordlen != 0)
+			while (wordlen != 0)
 			{
 				printf("word length: %d\n", wordlen);
 				wordlen = 0;

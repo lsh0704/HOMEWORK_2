@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 //과제2
 
 /*
-1) arraysize는 최대 99999의 값을 가진다.
+1) arraysize 최대 99999의 값을 가진다.
 이 때, 출력되는 arraytest()는 2147444236으로
 arraysize가 36152일때부터 위와 동일한 값이 나온다.*/
 
@@ -65,31 +65,37 @@ arraysize가 36152일때부터 위와 동일한 값이 나온다.*/
 
 int arraytest()
 {
-int a[3][ARRAYSIZE], i,j, max;
+int max;
+int **a = (int**)malloc(sizeof(int*) * ARRAYSIZE);
+int row, col = 0;
+int i = 0;
+int j = 0;
 
-for (i = 0; i < 3; i++)
+
+
+for (i = 0; i < ARRAYSIZE; i++)
+a[i] = (int*)malloc(sizeof(int) * ARRAYSIZE);
+
+for (row = 0; row<3; row++) {
+for (col = 0; col<ARRAYSIZE; col++)
 {
-for (j = 0; j < ARRAYSIZE; j++)
-{
-if (a[i][j] <= 2147444236)//a[i][j]가 overflow 아닐 때까지(최대값인 경우까지)
-a[i][j] = (rand() << 16) + rand();
-else
-break;
+a[row][col] = (rand() << 16) + rand();
 }
 }
-for (i = 0; i < 3; i++)
+
+for (max = a[0][0], i = 0; i < 3; i++)
 {
-for (max = a[0][0], j = 1; j < ARRAYSIZE; j++)
+for (j = 1; j < ARRAYSIZE; j++)
 (a[i][j] > max) ? (max = a[i][j]) : 0;
 }
 return max;
-
 }
 
 main()
 {
 printf("The maximum number is %d\n", arraytest());
 }
+
 
 
 */
